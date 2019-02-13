@@ -1,0 +1,23 @@
+name: pointnet_pytorch_itri
+channels:
+- open3d-admin
+- pytorch
+- conda-forge
+- defaults
+dependencies:
+- numpy
+- pillow
+- matplotlib
+- notebook
+- numpy
+- pip=18
+- python=3.6
+- tqdm
+- pytorch
+- open3d
+- pip:
+  - torchvision>=0.1.9
+  - vtk
+  - mayavi
+  - PyQt5
+  - primesense
